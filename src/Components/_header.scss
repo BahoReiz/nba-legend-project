@@ -1,0 +1,19 @@
+
+@import '../sass/mixin.scss';
+
+.header-container {
+    @include flex-column; 
+    width: 80%;
+    margin: 50px auto;
+    form {
+        
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        input {
+            width: 80%;
+            margin: auto;
+            padding: .3rem 1rem;
+        }
+    }
+}
